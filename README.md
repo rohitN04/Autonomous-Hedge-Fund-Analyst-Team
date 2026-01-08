@@ -38,6 +38,8 @@ Tools:
 - Language: Python 3.10+
 
 ## 📂 Project Structure
+
+```bash
 hedge-fund-analyst/
 ├── src/
 │   ├── agents/
@@ -53,6 +55,7 @@ hedge-fund-analyst/
 ├── requirements.txt         # Project dependencies
 ├── .env                     # API keys (Not uploaded to git)
 └── README.md
+```
 
 ## ⚡ Installation & Setup
 
@@ -64,6 +67,7 @@ cd hedge-fund-analyst
 
 2. Set Up a Virtual Environment
 It is recommended to use a virtual environment to avoid dependency conflicts.
+
 macOS/Linux:
 ```Bash
 python3 -m venv venv
@@ -98,8 +102,6 @@ streamlit run app.py
 - Open your browser to the local URL provided (usually http://localhost:8501).
 - Enter a stock ticker (e.g., AAPL, TSLA, MSFT) in the sidebar.
 - Click Run Analysis.
-
-Watch as the agents sequentially gather data and produce a final report.
 
 📝 Example Output
 Input: MSFT
