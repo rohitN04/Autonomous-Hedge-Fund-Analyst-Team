@@ -1,0 +1,6 @@
+langgraph
+openai
+streamlit
+yfinance
+dotenv
+tavily-python
