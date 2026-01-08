@@ -28,7 +28,7 @@ graph LR
     style Writer fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
 ```
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 - **Orchestration**: LangGraph
 - **Frontend**: Streamlit
 - **LLM**: OpenAI GPT-4o-mini
@@ -54,7 +54,7 @@ hedge-fund-analyst/
 ├── .env                     # API keys (Not uploaded to git)
 └── README.md
 
-⚡ Installation & Setup
+## ⚡ Installation & Setup
 
 1. Clone the Repository
 ```Bash
@@ -86,41 +86,28 @@ Create a .env file in the root directory and add your keys:
 OPENAI_API_KEY=your_openai_key_here
 TAVILY_API_KEY=your_tavily_key_here
 ```
-Get OpenAI Key
-Get Tavily Key (Required for search agent)
+Get OpenAI Key and Tavily Key (Required for search agent)
 
-🏃‍♂️ Usage
+## 🏃‍♂️ Usage
 
 Run the Streamlit application:
 
 ```Bash
 streamlit run app.py
 ```
-Open your browser to the local URL provided (usually http://localhost:8501).
-
-Enter a stock ticker (e.g., AAPL, TSLA, MSFT) in the sidebar.
-
-Click Run Analysis.
+- Open your browser to the local URL provided (usually http://localhost:8501).
+- Enter a stock ticker (e.g., AAPL, TSLA, MSFT) in the sidebar.
+- Click Run Analysis.
 
 Watch as the agents sequentially gather data and produce a final report.
 
 📝 Example Output
 Input: MSFT
-
 Agent Output:
+- 📊 Investment Report: MSFT
+- 📝 Executive Summary: Microsoft continues to show strong resilience in the cloud sector...
+- 📉 Key Risks & Opportunities: Opportunity: Integration of AI features into Office 365...
+- 🚀 Recommendation: BUY. The technical indicators over the last 5 days suggest a breakout trend...
 
-📊 Investment Report: MSFT
-
-📝 Executive Summary
-Microsoft continues to show strong resilience in the cloud sector...
-
-📉 Key Risks & Opportunities
-Opportunity: Integration of AI features into Office 365...
-
-Risk: Regulatory inspection in the EU...
-
-🚀 Recommendation
-BUY. The technical indicators over the last 5 days suggest a breakout trend...
-
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
